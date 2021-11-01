@@ -1,0 +1,912 @@
+{
+  "books": {
+    "AdultBooks": [
+      {
+        "id": "1a",
+        "picture": "1217-copy-143x216.gif",
+        "name": "אויב באדמת ידיד",
+        "author": "יונה ספיר",
+        "price": 90
+      },
+      {
+        "id": "2a",
+        "picture": "1464-copy-143x216.gif",
+        "name": "לוחמי הצללים",
+        "author": "יונה ספיר",
+        "price": 55
+      },
+      {
+        "id": "3a",
+        "picture": "1652-copy-143x216.gif",
+        "name": "שתול",
+        "author": "יונה ספיר",
+        "price": 87
+      },
+      {
+        "id": "4a",
+        "picture": "1090346-copy-143x216.gif",
+        "name": "משפט שדה",
+        "author": "יונה ספיר",
+        "price": 56
+      },
+      {
+        "id": "5a",
+        "picture": "באשר-הוא-שם-3-הדמיה-143x216.gif",
+        "name": "באשר הוא שם",
+        "author": "נעמי",
+        "price": 76
+      },
+      {
+        "id": "6a",
+        "picture": "בית-בטעם-נוגט-הדמיה-143x216.gif",
+        "name": "בית בטעם נוגט",
+        "author": "שיינר",
+        "price": 34
+      },
+      {
+        "id": "7a",
+        "picture": "בלתי-הפיך-הדמיה-143x216.gif",
+        "name": "בלתי הפיך",
+        "author": "ארבל",
+        "price": 56
+      },
+      {
+        "id": "8a",
+        "picture": "דם-קר-הדמיה-143x216.gif",
+        "name": "דם קר",
+        "author": "יונה ספיר",
+        "price": 87
+      },
+      {
+        "id": "9a",
+        "picture": "השעיר-הדמיה-143x216.gif",
+        "name": "השעיר השלישי",
+        "author": "ארבל",
+        "price": 54
+      },
+      {
+        "id": "10a",
+        "picture": "ורטיגו-הדמיה-143x216.gif",
+        "name": "ורטיגו",
+        "author": "יונה ספיר",
+        "price": 76
+      },
+      {
+        "id": "11a",
+        "picture": "כסף-זר-הדמיה-143x216.gif",
+        "name": "כסף זר",
+        "author": "יצחק פרקר",
+        "price": 45
+      },
+      {
+        "id": "12a",
+        "picture": "מה-שאת-בוחרת-הדמיה-143x216.gif",
+        "name": "מה שאת בוחרת",
+        "author": "שרה מלוביצקי",
+        "price": 50
+      },
+      {
+        "id": "13a",
+        "picture": "צוואה-143x216.gif",
+        "name": "צוואה",
+        "author": "חיים גרינבוים",
+        "price": 35
+      },
+      {
+        "id": "14a",
+        "picture": "קיארה-143x216.gif",
+        "name": "קיארה",
+        "author": "צפורה שלגר",
+        "price": 50
+      },
+      {
+        "id": "15a",
+        "picture": "קשר-גורדי-הדמיה-143x216.gif",
+        "name": "קשר גורדי",
+        "author": "ארבל",
+        "price": 74
+      },
+      {
+        "id": "16a",
+        "picture": "תיק-הדמיה-143x216.gif",
+        "name": "תיק מקסיקו",
+        "author": "חיים גרינבוים",
+        "price": 40
+      }
+    ],
+    "ChildrenBooks": [
+      {
+        "id": "1b",
+        "picture": "אינטלגנציק-2-143x216.gif",
+        "name": "אינטלגנצ'יק",
+        "author": "דבורה בנדיקט",
+        "price": 50
+      },
+      {
+        "id": "2b",
+        "picture": "איפה-אני-הדמיה-143x216.gif",
+        "name": "איפה אני",
+        "author": "רחלי",
+        "price": 15
+      },
+      {
+        "id": "3b",
+        "picture": "דדי-4-הדמיה-143x216.gif",
+        "name": "איפה דדי גמדי",
+        "author": "מנוחה פוקס",
+        "price": 10
+      },
+      {
+        "id": "4b",
+        "picture": "דדי-8-הדמיה-143x216.gif",
+        "name": "דדי גמדי והספר המעניין",
+        "author": "מנוחה פוקס",
+        "price": 10
+      },
+      {
+        "id": "5b",
+        "picture": "חיש-העכביש-143x216.gif",
+        "name": "חיש העכביש",
+        "author": "גרוס",
+        "price": 20
+      },
+      {
+        "id": "6b",
+        "picture": "חנות-לסבלנות-הדמיה-143x216.gif",
+        "name": "חנות לסבלנות",
+        "author": "שולמית",
+        "price": 34
+      },
+      {
+        "id": "7b",
+        "picture": "מה-אהבתי-הדמיה-143x216.gif",
+        "name": "מה אהבתי",
+        "author": "בת שבע",
+        "price": 35
+      },
+      {
+        "id": "8b",
+        "picture": "מה-הייתם-הדמיה-143x216.gif",
+        "name": "מה הייתם עושים במקומי",
+        "author": "אהובה גניש",
+        "price": 30
+      },
+      {
+        "id": "9b",
+        "picture": "מי-מה-כמה-143x216.gif",
+        "name": "מי מה כמה",
+        "author": "יהודית",
+        "price": 54
+      },
+      {
+        "id": "10b",
+        "picture": "שלי-24-הדמיה-143x216.gif",
+        "name": "מיכאל והילד שאסף מצוות",
+        "author": "מנוחה פוקס",
+        "price": 76
+      },
+      {
+        "id": "11b",
+        "picture": "שעת-סיפור-2-הדמיה-143x216.gif",
+        "name": "שעת סיפור 2",
+        "author": "הורן",
+        "price": 45
+      }
+    ],
+    "ComicsBooks": [
+      {
+        "id": "1c",
+        "picture": "דודי-ואודי-הדמיה-143x216.gif",
+        "name": "דודי ואודי",
+        "author": "שרה ליאון",
+        "price": 40
+      },
+      {
+        "id": "2c",
+        "picture": "האניגמה-מבצע-הדמיה-143x216.gif",
+        "name": "האניגמה והצופן הסודי",
+        "author": "א. אייכלר",
+        "price": 55
+      },
+      {
+        "id": "3c",
+        "picture": "הדמיה_אמזונס_1-143x216.jpg",
+        "name": "האמזונס",
+        "author": "אברהם אוחיון",
+        "price": 60
+      },
+      {
+        "id": "4c",
+        "picture": "הדמיה_מלחע3-143x216.png",
+        "name": "במלחמת העולם השניה",
+        "author": "אברהם אוחיון",
+        "price": 56
+      },
+      {
+        "id": "5c",
+        "picture": "החבטה-הדמיה-143x216.gif",
+        "name": "החבטה",
+        "author": "קובי לוי",
+        "price": 50
+      },
+      {
+        "id": "6c",
+        "picture": "החוקרים-קומיקס-2-הדמיה-143x216.gif",
+        "name": "החוקרים 2",
+        "author": "שרי וולך",
+        "price": 60
+      },
+      {
+        "id": "7c",
+        "picture": "הנמלט-3-הדמיה-143x216.gif",
+        "name": "הנמלט",
+        "author": "אברהם אוחיון",
+        "price": 56
+      },
+      {
+        "id": "8c",
+        "picture": "התאומים-143x216.png",
+        "name": "התאומים",
+        "author": "אברהם אוחיון",
+        "price": 60
+      },
+      {
+        "id": "9c",
+        "picture": "סדאם-1-143x216.png",
+        "name": "סדאם המשחק נגמר",
+        "author": "אברהם אוחיון",
+        "price": 54
+      },
+      {
+        "id": "10c",
+        "picture": "סוביבור-1-הדמיה-143x216.gif",
+        "name": "סוביבור",
+        "author": "אברהם אוחיון",
+        "price": 60
+      }
+    ],
+    "CookingBooks": [
+      {
+        "id": "1d",
+        "picture": "אפרת-שוקולד-הדמיה-143x216.gif",
+        "name": "שוקולד",
+        "author": "אפרת",
+        "price": 90
+      },
+      {
+        "id": "2d",
+        "picture": "דברים-טובים-143x216.gif",
+        "name": "דברים טובים",
+        "author": "חוי לב",
+        "price": 55
+      },
+      {
+        "id": "3d",
+        "picture": "הדמיה-בריא-143x216.gif",
+        "name": "מבשלים ביחד",
+        "author": "אסתר לוי",
+        "price": 87
+      },
+      {
+        "id": "4d",
+        "picture": "הדמיה-מבשלים-ביחד-143x216.gif",
+        "name": "מבשלים ביחד בריא",
+        "author": "אסתר לוי",
+        "price": 56
+      },
+      {
+        "id": "5d",
+        "picture": "המתכונים-143x216.gif",
+        "name": "המתכונים שאהבנו",
+        "author": "אוסף",
+        "price": 76
+      },
+      {
+        "id": "6d",
+        "picture": "טעים-ובריא-הדמיה-143x216.gif",
+        "name": "פשוט טעים ובריא",
+        "author": "אביגיל מייזליק",
+        "price": 34
+      },
+      {
+        "id": "7d",
+        "picture": "טעים-מתוקים-הדמיה-143x216.gif",
+        "name": "פשוט טעים המתוקים",
+        "author": "אביגיל מייזליק",
+        "price": 56
+      },
+      {
+        "id": "8d",
+        "picture": "טעים-תבשילים-הדמיה-143x216.gif",
+        "name": "פשוט טעים תבשילים",
+        "author": "אביגיל מייזליק",
+        "price": 87
+      },
+      {
+        "id": "9d",
+        "picture": "כיבוד-קל-143x216.gif",
+        "name": "כיבוד קל",
+        "author": "א. אייכלר",
+        "price": 54
+      },
+      {
+        "id": "10d",
+        "picture": "מהמטבח-מבצע-הדמיה-143x216.gif",
+        "name": "מהמטבח היהודי הקלאסי 2",
+        "author": "שרה פינקל",
+        "price": 76
+      }
+    ],
+    "Moosar": [
+      {
+        "id": "1e",
+        "picture": "אבות-דרבי-נתן-הדמיה-143x216.gif",
+        "name": "אבות דרבי נתן",
+        "author": "חזל",
+        "price": 40
+      },
+      {
+        "id": "2e",
+        "picture": "אגרות-הדמיה-143x216.gif",
+        "name": "נפש שמשון",
+        "author": "הרב שמשון פינקוס",
+        "price": 55
+      },
+      {
+        "id": "3e",
+        "picture": "אדרבה-הדמיה-143x216.gif",
+        "name": "אדרבא",
+        "author": "הרב פוזן",
+        "price": 20
+      },
+      {
+        "id": "4e",
+        "picture": "אהבת-ישראל-הדמיה-143x216.gif",
+        "name": "אהבת ישראל",
+        "author": "ליקוטי אמרים",
+        "price": 56
+      },
+      {
+        "id": "5e",
+        "picture": "אחריך-בנימין-הדמיה-143x216.gif",
+        "name": "אחריך בנימין",
+        "author": "תלמידי הרב זצל",
+        "price": 50
+      },
+      {
+        "id": "6e",
+        "picture": "ארגז-הדמיה-143x216.gif",
+        "name": "ארגז הכלים",
+        "author": "הרב יצחק פנגר",
+        "price": 65
+      },
+      {
+        "id": "7e",
+        "picture": "ארון-הברית-עילוי-הדמיה-143x216.gif",
+        "name": "ארון הברית",
+        "author": "הרב אשר ישראלי",
+        "price": 56
+      },
+      {
+        "id": "8e",
+        "picture": "אש-קודש-הדמיה-143x216.gif",
+        "name": "אש קודש",
+        "author": "פיאסצנה",
+        "price": 30
+      },
+      {
+        "id": "9e",
+        "picture": "בינת-הדמיה-143x216.gif",
+        "name": "בינת המידות",
+        "author": "רבנים שונים",
+        "price": 54
+      },
+      {
+        "id": "10e",
+        "picture": "דרך-המלך-הדמיה-143x216.gif",
+        "name": "דרך המלך",
+        "author": "הרב חיים אשרי",
+        "price": 30
+      },
+      {
+        "id": "11e",
+        "picture": "דרשות-מקור-הדמיה-143x216.gif",
+        "name": "דרשות מקור חיים",
+        "author": "הרב רפאל",
+        "price": 45
+      },
+      {
+        "id": "12e",
+        "picture": "הכשרת-הדמיה-143x216.gif",
+        "name": "הכשרת האברכים",
+        "author": "הרב חיים אשרי",
+        "price": 30
+      },
+      {
+        "id": "13e",
+        "picture": "המכתב-פנגר-הדמיה-143x216.gif",
+        "name": "המכתב",
+        "author": "הרב יצחק פנגר",
+        "price": 65
+      },
+      {
+        "id": "14e",
+        "picture": "יסוד-חדש-הדמיה-143x216.gif",
+        "name": "יסוד ושורש העבודה",
+        "author": "מחבר לא ידוע",
+        "price": 50
+      },
+      {
+        "id": "15e",
+        "picture": "מידות-והנהגות-הדמיה-143x216.gif",
+        "name": "מידות והנהגות טובות",
+        "author": "הרב יחיאל מיכל שטיין",
+        "price": 55
+      },
+      {
+        "id": "16e",
+        "picture": "מקלם-זכרון-הדמיה-143x216.gif",
+        "name": "בית קלם",
+        "author": "תלמידים",
+        "price": 40
+      },
+      {
+        "id": "17e",
+        "picture": "מרים-הדמיה-143x216.gif",
+        "name": "אדל מרים",
+        "author": "הרב שמשון דוד פינקוס",
+        "price": 40
+      },
+      {
+        "id": "18e",
+        "picture": "פניני-רבי-שמשון-הדמיה-143x216.gif",
+        "name": "פניני רבי שמשון",
+        "author": "הרב שמשון דוד פינקוס",
+        "price": 45
+      },
+      {
+        "id": "19e",
+        "picture": "שפתי-המשמר-הדמיה-143x216.gif",
+        "name": "שפתי המשמר",
+        "author": "שמואל הלוי",
+        "price": 55
+      }
+    ],
+    "Tora": [
+      {
+        "id": "1f",
+        "picture": "20201013_125555-scaled-143x216.jpg",
+        "name": "יאיר האור",
+        "author": "קובץ מאמרים",
+        "price": 25
+      },
+      {
+        "id": "2f",
+        "picture": "פרקי-מחשבה-זכור-143x216.png",
+        "name": "פרקי מחשבה",
+        "author": "הרב יחיאל טאוב",
+        "price": 55
+      },
+      {
+        "id": "3f",
+        "picture": "אור-החיים-יפה-הדמיה-143x216.gif",
+        "name": "אור החיים",
+        "author": "רבנו חיים בן עטר",
+        "price": 45
+      },
+      {
+        "id": "4f",
+        "picture": "אטה-למשל-הדמיה-143x216.gif",
+        "name": "אטה למשל",
+        "author": "הרב יחיאל טאוב",
+        "price": 56
+      },
+      {
+        "id": "5f",
+        "picture": "אילנא-143x216.gif",
+        "name": "אילנא דפלפלי",
+        "author": "הרב יעקב ישראל כץ",
+        "price": 76
+      },
+      {
+        "id": "6f",
+        "picture": "בעקבות-הירש-הדמיה-143x216.gif",
+        "name": "בעקבות הרב הירש",
+        "author": "צאצאיו",
+        "price": 55
+      },
+      {
+        "id": "7f",
+        "picture": "גנא-הדמיה-143x216.gif",
+        "name": "גנא דפלפלי",
+        "author": "הרב יעקב ישראל כץ",
+        "price": 56
+      },
+      {
+        "id": "8f",
+        "picture": "טעמי-המצוות-הדמיה-143x216.gif",
+        "name": "טעמי המצוות",
+        "author": "הרב חיים שמואלי",
+        "price": 60
+      },
+      {
+        "id": "9f",
+        "picture": "לאור-קדושת-הדמיה-143x216.gif",
+        "name": "לאור קדושת לוי",
+        "author": "הרב חיים שמואלי",
+        "price": 54
+      },
+      {
+        "id": "10f",
+        "picture": "מאור-עיניים-הדמיה-143x216.gif",
+        "name": "מאור עיניים",
+        "author": "הרב חיים שמואלי",
+        "price": 45
+      },
+      {
+        "id": "11f",
+        "picture": "דרשות-מקור-הדמיה-143x216.gif",
+        "name": "דרשות מקור חיים",
+        "author": "הרב רפאל לוי",
+        "price": 45
+      },
+      {
+        "id": "12f",
+        "picture": "משולחנו-הדמיה-143x216.gif",
+        "name": "משולחנו של בית הלוי",
+        "author": "הרב חיים שמואלי",
+        "price": 50
+      },
+      {
+        "id": "13f",
+        "picture": "משך-חכמה-הדמיה-143x216.gif",
+        "name": "משך חכמה",
+        "author": "מחבר לא ידוע",
+        "price": 35
+      },
+      {
+        "id": "14f",
+        "picture": "נביאים-שמואל-א-הדמיה-143x216.gif",
+        "name": "נביאים שמואל א",
+        "author": "הרב חיים שמואלי",
+        "price": 50
+      },
+      {
+        "id": "15f",
+        "picture": "נטפי-הדמיה-143x216.gif",
+        "name": "נטפי משה",
+        "author": "הרב חיים שמואלי",
+        "price": 74
+      },
+      {
+        "id": "16f",
+        "picture": "שבענו-מטובך-143x216.gif",
+        "name": "שבענו מטובך",
+        "author": "הרב חיים שמואלי",
+        "price": 45
+      },
+      {
+        "id": "17f",
+        "picture": "שלמי-אהבה-הדמיה-143x216.gif",
+        "name": "שלמי אהבה",
+        "author": "הרב חיים שמואלי",
+        "price": 55
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": "322678368",
+      "fullName": "Rachel Blass",
+      "email": "rachelib1231@gmail.com",
+      "password": "Rach0000",
+      "cart": [
+        {
+          "id": "3c",
+          "picture": "הדמיה_אמזונס_1-143x216.jpg",
+          "name": "האמזונס",
+          "author": "אברהם אוחיון",
+          "price": 60,
+          "category": "ComicsBooks",
+          "sum": 1
+        },
+        {
+          "id": "2c",
+          "picture": "האניגמה-מבצע-הדמיה-143x216.gif",
+          "name": "האניגמה והצופן הסודי",
+          "author": "א. אייכלר",
+          "price": 55,
+          "category": "ComicsBooks",
+          "sum": 3
+        },
+        {
+          "id": "7c",
+          "picture": "הנמלט-3-הדמיה-143x216.gif",
+          "name": "הנמלט",
+          "author": "אברהם אוחיון",
+          "price": 56,
+          "category": "ComicsBooks",
+          "sum": 1
+        },
+        {
+          "id": "6c",
+          "picture": "החוקרים-קומיקס-2-הדמיה-143x216.gif",
+          "name": "החוקרים 2",
+          "author": "שרי וולך",
+          "price": 60,
+          "category": "ComicsBooks",
+          "sum": 2
+        }
+      ],
+      "sumItems": 6,
+      "sumPrice": 341
+    },
+    {
+      "id": "211727516",
+      "fullName": "elisheva wajsberg",
+      "email": "elishevawajsberg@gmail.com",
+      "password": "12345678",
+      "cart": [
+        {
+          "id": "4a",
+          "picture": "1090346-copy-143x216.gif",
+          "name": "משפט שדה",
+          "author": "יונה ספיר",
+          "price": 56,
+          "category": "AdultBooks",
+          "sum": 4
+        },
+        {
+          "id": "2a",
+          "picture": "1464-copy-143x216.gif",
+          "name": "לוחמי הצללים",
+          "author": "יונה ספיר",
+          "price": 55,
+          "category": "AdultBooks",
+          "sum": 2
+        },
+        {
+          "id": "2d",
+          "picture": "דברים-טובים-143x216.gif",
+          "name": "דברים טובים",
+          "author": "חוי לב",
+          "price": 55,
+          "category": "CookingBooks",
+          "sum": 1
+        },
+        {
+          "id": "6d",
+          "picture": "טעים-ובריא-הדמיה-143x216.gif",
+          "name": "פשוט טעים ובריא",
+          "author": "אביגיל מייזליק",
+          "price": 34,
+          "category": "CookingBooks",
+          "sum": 1
+        },
+        {
+          "id": "9d",
+          "picture": "כיבוד-קל-143x216.gif",
+          "name": "כיבוד קל",
+          "author": "א. אייכלר",
+          "price": 54,
+          "category": "CookingBooks",
+          "sum": 3
+        },
+        {
+          "id": "5d",
+          "picture": "המתכונים-143x216.gif",
+          "name": "המתכונים שאהבנו",
+          "author": "אוסף",
+          "price": 76,
+          "category": "CookingBooks",
+          "sum": 3
+        },
+        {
+          "id": "1d",
+          "picture": "אפרת-שוקולד-הדמיה-143x216.gif",
+          "name": "שוקולד",
+          "author": "אפרת",
+          "price": 90,
+          "category": "CookingBooks",
+          "sum": 4
+        }
+      ],
+      "sumItems": 18,
+      "sumPrice": 1173
+    },
+    {
+      "id": "322376096",
+      "fullName": "Efrat Dahan",
+      "email": "efart8458@gmal.com",
+      "password": "efrat8458",
+      "cart": [],
+      "sumItems": 0,
+      "sumPrice": 0
+    },
+    {
+      "id": "212224687",
+      "fullName": "תמר פורמן",
+      "email": "tammyfur212@gmail.com",
+      "password": "2134545fdsf",
+      "cart": [],
+      "sumItems": 0,
+      "sumPrice": 0
+    },
+    {
+      "id": "216814122",
+      "fullName": "חנה בלס",
+      "email": "rachelib1231@gmail.com",
+      "password": "12121212",
+      "cart": [
+        {
+          "id": "13a",
+          "picture": "צוואה-143x216.gif",
+          "name": "צוואה",
+          "author": "חיים גרינבוים",
+          "price": 35,
+          "category": "AdultBooks",
+          "sum": 4
+        }
+      ],
+      "sumItems": 4,
+      "sumPrice": 140
+    },
+    {
+      "id": "090909090",
+      "fullName": "chanr",
+      "email": "rachelib1231@gmail.com",
+      "password": "090909090",
+      "cart": [],
+      "sumItems": 0,
+      "sumPrice": 0
+    },
+    {
+      "id": "333333333",
+      "fullName": "333333333",
+      "email": "amir0504163733@gmail.com",
+      "password": "333333333",
+      "cart": [
+        {
+          "id": "1d",
+          "picture": "אפרת-שוקולד-הדמיה-143x216.gif",
+          "name": "שוקולד",
+          "author": "אפרת",
+          "price": 90,
+          "category": "CookingBooks",
+          "sum": 1
+        },
+        {
+          "id": "2d",
+          "picture": "דברים-טובים-143x216.gif",
+          "name": "דברים טובים",
+          "author": "חוי לב",
+          "price": 55,
+          "category": "CookingBooks",
+          "sum": 3
+        }
+      ],
+      "sumItems": 4,
+      "sumPrice": 255
+    },
+    {
+      "id": "031781453",
+      "fullName": "רחלי בלס",
+      "email": "rachelib1231@gmail.com",
+      "password": "שרלחיגכע",
+      "cart": [],
+      "sumItems": 0,
+      "sumPrice": 0
+    },
+    {
+      "id": "031781412",
+      "fullName": "אמיר בלס",
+      "email": "amir0504163733@gmail.com",
+      "password": "12341234",
+      "cart": [
+        {
+          "id": "1a",
+          "picture": "1217-copy-143x216.gif",
+          "name": "אויב באדמת ידיד",
+          "author": "יונה ספיר",
+          "price": 90,
+          "category": "AdultBooks",
+          "sum": 1
+        },
+        {
+          "id": "2a",
+          "picture": "1464-copy-143x216.gif",
+          "name": "לוחמי הצללים",
+          "author": "יונה ספיר",
+          "price": 55,
+          "category": "AdultBooks",
+          "sum": 1
+        },
+        {
+          "id": "17f",
+          "picture": "שלמי-אהבה-הדמיה-143x216.gif",
+          "name": "שלמי אהבה",
+          "author": "הרב חיים שמואלי",
+          "price": 55,
+          "category": "Tora",
+          "sum": 1
+        },
+        {
+          "id": "14f",
+          "picture": "נביאים-שמואל-א-הדמיה-143x216.gif",
+          "name": "נביאים שמואל א",
+          "author": "הרב חיים שמואלי",
+          "price": 50,
+          "category": "Tora",
+          "sum": 3
+        },
+        {
+          "id": "11f",
+          "picture": "דרשות-מקור-הדמיה-143x216.gif",
+          "name": "דרשות מקור חיים",
+          "author": "הרב רפאל לוי",
+          "price": 45,
+          "category": "Tora",
+          "sum": 3
+        }
+      ],
+      "sumItems": 8,
+      "sumPrice": 440
+    },
+    {
+      "id": "322678350",
+      "fullName": "אורית בלס",
+      "email": "rachelib1231@gmail.com",
+      "password": "67446754",
+      "cart": [
+        {
+          "id": "3b",
+          "picture": "דדי-4-הדמיה-143x216.gif",
+          "name": "איפה דדי גמדי",
+          "author": "מנוחה פוקס",
+          "price": 10,
+          "category": "ChildrenBooks",
+          "sum": 4
+        },
+        {
+          "id": "6b",
+          "picture": "חנות-לסבלנות-הדמיה-143x216.gif",
+          "name": "חנות לסבלנות",
+          "author": "שולמית",
+          "price": 34,
+          "category": "ChildrenBooks",
+          "sum": 3
+        },
+        {
+          "id": "11b",
+          "picture": "שעת-סיפור-2-הדמיה-143x216.gif",
+          "name": "שעת סיפור 2",
+          "author": "הורן",
+          "price": 45,
+          "category": "ChildrenBooks",
+          "sum": 1
+        }
+      ],
+      "sumItems": 7,
+      "sumPrice": 142
+    },
+    {
+      "id": "038611356",
+      "fullName": "אורית בלס",
+      "email": "orit@gmail.com",
+      "password": "12312312",
+      "cart": [
+        {
+          "id": "3c",
+          "picture": "הדמיה_אמזונס_1-143x216.jpg",
+          "name": "האמזונס",
+          "author": "אברהם אוחיון",
+          "price": 60,
+          "category": "ComicsBooks",
+          "sum": 1
+        }
+      ],
+      "sumItems": 0,
+      "sumPrice": 0
+    }
+  ]
+}
